@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "cmc",
   "version": "0.0.0",
@@ -27,3 +28,35 @@
   },
   "homepage": "https://nexusscars.github.io/CMC"
 }
+=======
+{
+  "name": "cmc",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.0",
+    "@mui/material": "^5.14.0",
+    "framer-motion": "^10.12.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^7.6.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "gh-pages": "^6.0.0",
+    "vite": "^7.0.4"
+  },
+  "homepage": "https://nexusscars.github.io/CMC"
+}
+>>>>>>> 5bdd322 (Remove hardcoded script path from index.html)
