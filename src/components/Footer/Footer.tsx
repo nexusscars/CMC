@@ -62,12 +62,12 @@ function Footer() {
             textAlign: "left",
           }}
         >
-          <Typography>Lorem ipsum</Typography>
+           <Typography sx={{ color: "#fff" }}>Recent Stock </Typography>
 
-          <Typography>
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud
+           <Typography sx={{ color: "#fff" }}>
+            Nexusscars connects buyers to their next car through Japan’s 
+            latest stock. Customers trust us for fast shipping, and lifetime parts 
+            support from Japan. Contact us for today's "For Sale".
           </Typography>
 
           <NavLink to="/about">
@@ -127,7 +127,7 @@ function Footer() {
           }}
         >
           <Typography>
-            USEFULL{" "}
+            USEFUL{" "}
             <Link
               href=""
               sx={{
@@ -275,10 +275,10 @@ function Footer() {
                     color: "#ED1F1F",
                   },
                 }}
-                href="tel:(+254) 123 456 789"
+                href="tel:(+81) 4 7191 1267"
               >
                 {" "}
-                (+254) 123 456 789
+                (+81) 4 7191 1267
               </Link>
               <br />
 
@@ -290,12 +290,12 @@ function Footer() {
                     color: "#ED1F1F",
                   },
                 }}
-                href="mailto:enquiries@cmcmotors.com"
+                href="mailto:nexusscars@gmail.com"
               >
-                enquiries@cmcmotors.com
+                nexusscars@gmail.com
               </Link>
               <br />
-              <Typography>Nairobi Kenya</Typography>
+               <Typography sx={{ color: "#fff" }}>Chiba Pref. Japan</Typography>
             </address>
           </Box>
         </Box>
@@ -386,7 +386,7 @@ function Footer() {
           }}
         >
           <Typography>
-            Copyright ©Sepia. All Rights Reserved.{" "}
+            Copyright ©Nexusscars.Com All Rights Reserved.{" "}
             <NavLink
               to="privacy-policy"
               style={{color: '#c1c1c1'}}
@@ -404,7 +404,7 @@ function Footer() {
               to="privacy-policy"
               style={{color: '#c1c1c1'}}
             >
-              www.sepia.co.ke
+              www.nexusscars.com
             </NavLink>
           </Typography>
         </Box>
