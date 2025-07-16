@@ -67,7 +67,7 @@ function Footer() {
            <Typography sx={{ color: "#fff" }}>
             Nexusscars connects buyers to their next car through Japan’s 
             latest stock. Customers trust us for fast shipping, and lifetime parts 
-            support from Japan. Contact us for today's "For Sale".
+            support from Japan. Contact us for today's "For Sale Used Vehicles".
           </Typography>
 
           <NavLink to="/about">
